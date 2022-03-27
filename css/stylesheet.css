@@ -105,6 +105,7 @@ img{
     height: auto;
 }
 
-#img-size{
-
+#float-img{
+    display: block;
+    height: auto;
 }
