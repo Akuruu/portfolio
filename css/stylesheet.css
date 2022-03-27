@@ -32,7 +32,7 @@ p{
 
 nav{
     background-color: #F2E1C1;
-    color:#B97A95;
+    color: #716F81;
 }
 
 img{
@@ -51,6 +51,12 @@ img{
 .container{
     max-width: 975px;
     margin: auto;
+}
+
+.container02{
+    max-width: 500px;
+    margin: 0;
+    
 }
 
 .header-box{
@@ -74,7 +80,6 @@ img{
     width: auto;
     height: 400px;
     border: 3px solid #F6AE99;
-    padding: 20px;
     margin-bottom:  20px;
     text-align: center;
 }
@@ -84,7 +89,6 @@ img{
     width: 475px;
     height: 140px;
     border: 3px solid #F6AE99;
-    padding: 20px;
     margin-bottom:  20px;
     flex-direction: row;  
 }
@@ -95,4 +99,9 @@ img{
     padding: 2px;
 }
 
+#example{
+    display: block;
+    width: auto;
+    height: auto;
+}
 
