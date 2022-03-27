@@ -87,7 +87,7 @@ img{
 .box02{
     display: flex;
     width: 475px;
-    height: 140px;
+    height: auto;
     border: 3px solid #F6AE99;
     margin-bottom:  20px;
     flex-direction: row;  
@@ -105,3 +105,6 @@ img{
     height: auto;
 }
 
+#img-size{
+
+}
