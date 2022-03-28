@@ -23,8 +23,7 @@ ul li{
     text-align: right;
     display: inline-block;
     justify-content: flex-end;
-    font-weight: bold;  
-     
+    font-weight: bold;     
 }
 
 a{
@@ -100,7 +99,7 @@ footer li a{
 .box01{
     display: flex;
     width: auto;
-    height: 400px;
+    height: auto;
     border: 3px solid #F6AE99;
     margin-bottom:  20px;
 }
@@ -113,6 +112,17 @@ footer li a{
     margin-bottom:  20px;
 }
 
+.title-box{
+    width: 145px;
+    height: 40px;
+    border: 3px solid #F6AE99;
+    color:#716F81;
+    background-color: #F6AE99;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
 #nav{
     font-size: 20px;
     text-align: right;
@@ -123,7 +133,7 @@ footer li a{
 
 #main-project img{
     display: block;
-    width: 100%;
+    width: 50%;
     height: 100%;
 
 }#outer-border{
@@ -134,4 +144,12 @@ footer li a{
 #header-img{
     position: relative;
     bottom: 34px;
+}
+
+#title-box{
+    display: inline;
+}
+
+#footer{
+    color:#716F81;
 }
