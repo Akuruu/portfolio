@@ -63,12 +63,25 @@ footer li a{
     left: 1500px;
     top: 135px;
     z-index: 1;
+    display: none;
 }
 
 .container{
     max-width: 1115px;
     margin: auto;
     position: relative;
+}
+.myphoto{
+    width: 230px;
+    height: 275px;
+    display: inline-block;
+    position: absolute;
+    left: 862px;
+    bottom: -4px;
+    margin: 0;
+    padding: 0px;
+    border: 3px solid #F6AE99;
+    z-index: 1;
 }
 
 .header-box{
