@@ -1,22 +1,28 @@
+/*Sets the font along with padding and margin for all elements*/
 *{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+/*Gives the elements under main the ability to flex*/
+main{
+    display:flex;
+}
+/*Center the main header and increases font size*/
 h1 {
+    justify-content: center;
     font-size: 200%;
 }
-
+/*Displays flex element and increases font size*/
 h2{
+    flex-wrap: wrap;
     font-size: 150%;
 }
-
+/*Allows relative positioning in the header to move around other elements*/
 header{
     position:relative;
 }
-
+/*Styles the main list elements mainly for the nav*/
 ul li{
     text-decoration: none;
     padding: 2px;
@@ -25,52 +31,45 @@ ul li{
     justify-content: flex-end;
     font-weight: bold;     
 }
-
+/*Changes link colors*/
 a{
     color:#F2E1C1;
 }
-
+/*Sets paragraph font size and color*/
 p{
     font-size: 18px;
     color:#716F81;
 }
-
+/*Sets up nav flex, background color and text color*/
 nav{
+    flex-wrap: wrap;
     background-color: #B97A95;
     color: #F2E1C1;
 }
-
+/*Changes size of images and keep aspect ratio*/
 img{
     width: 100%;
     height: 225px;
     object-fit: cover;
     margin-bottom: 10px;
 }
-
+/*Sets the listed links in the footer to a certain size, color and gives them spacing*/
 footer li a{
+    flex-wrap: wrap;
     font-size: 17px;
     padding: 20px;
-    color:#716F81
+    color:#716F81;
+    justify-content:space-between ;
 }
-
-.position{
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    color: #716F81;
-    background-color: #F2E1C1;
-    padding: 5px;
-    left: 1500px;
-    top: 135px;
-    z-index: 1;
-    display: none;
-}
-
+/*A box to contain the main content of the file*/
 .container{
+    justify-content: center;
+    flex-direction: column;
     max-width: 1115px;
     margin: auto;
-    position: relative;
+    padding: 0;
 }
+/*Sets the dimensions and positioning for my developer portrait*/
 .myphoto{
     width: 230px;
     height: 275px;
@@ -83,8 +82,9 @@ footer li a{
     border: 3px solid #F6AE99;
     z-index: 1;
 }
-
+/*Forms the box for the header that hold my first and last name in the corner*/
 .header-box{
+    flex-wrap: wrap;
     border: 2px solid F6AE99;
     background-color: #F2E1C1;
     padding: 15px;
@@ -93,38 +93,39 @@ footer li a{
     width: 275px;
     color: #716F81;
 }
+/*Sets the position for the content headers to the side*/
 .spacing{
      position: relative;
      right: 288px;
      width: 250px;
-     top: 75px;
+     top: 30px;
      font-size: 300%;
      color: #716F81
 }
-
+/*Creates the box that holds the "About Me" description*/
 .box0{
     text-align: left;
     border: 5px solid white;
     padding: 10px;
     margin-bottom: 5px;
 }
-
+/*Creates the box that holds the main project that is to be showcased*/
 .box01{
-    display: flex;
+    flex-direction: column;
     width: auto;
     height: auto;
     border: 3px solid #F6AE99;
     margin-bottom:  20px;
 }
-
+/*Creates the smaller boxes for other projects*/
 .box02 img{
-    display: flex;
+    flex-direction: column;
     width: 545px;
     height: 150px;
     border: 3px solid #F6AE99;
     margin-bottom:  20px;
 }
-
+/*Contains the headers that list the project names and positions them on top of each box*/
 .title-box{
     width: 145px;
     height: 40px;
@@ -135,7 +136,7 @@ footer li a{
     text-align: center;
     z-index: 1;
 }
-
+/*Changes nav font size and positions it to the right */
 #nav{
     font-size: 20px;
     text-align: right;
@@ -144,23 +145,50 @@ footer li a{
     bottom: 30px;
 }
 
+/*Sets the dimensions for the main project image*/
 #main-project img{
     width: 100%;
     height: 100%;
 }
-
+/*Forms the left border that separates the headers from the content*/
 #outer-border{
     border-left: solid #716F81;
     padding-left: 10px;
 }
-
+/*Sets the margin for the cover image in the header and allows for positioning elements around it */
 #header-img{
     position: relative;
     bottom: 34px;
 }
-
-
-#footer{
+/*Styles the footer text for separate items and positions them in the center*/
+#footer, #footer-space{
     color:#716F81;
     text-decoration: underline;
+    text-align: center;
+}
+/*Allows for viewing on mobile devices*/
+@media screen and (max-width: 768px) {
+    nav {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .container{
+        justify-content: center;
+    }
+
+    .box01, .box02{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .spacing{
+        width: 100%;
+        text-align: center;
+        float: right;
+    }
+
+    #header-img, #myphoto {
+        display: none;
+    }
 }
