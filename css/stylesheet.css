@@ -180,6 +180,7 @@ footer li a{
     .box01, .box02{
         width: 100%;
         justify-content: center;
+        float: none;
     }
 
     .spacing{
