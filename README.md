@@ -1,19 +1,50 @@
-# portfolio
-<h2 style="border-bottom: solid white .5px;"> Table of contents: </h2>
+# README.md Generator
+      
+ ## Table of Contents 
 
-<ul>
-<li>Description</li>
-<!-- <li> Website Showcase</li> -->
-</ul>
+      
+-----------------------------------------
+
+      
+ - [Description](#description) 
+
+      
+ - [Showcase](#link) 
+
+      
+      
+ - [Questions?](#email) 
 
 
-<h2 style="border-bottom: solid white .5px;">Description</h2>
+      
+ ## Description 
 
-<p>This is my current portfolio that is still a work in progress. It will be showcasing a few projects that I will have completed over the course of lessons along with
-personal projects. </p>
+      
+-----------------------------------------
 
-<!--
-<h2 style="border-bottom: solid white .5px;">Website<h2>
+      
+This is my current portfolio that is still a work in progress. It will be showcasing a few projects that I will have completed over the course of lessons along with personal projects.
 
-<img src ="./assets/image/mainpage.gif">
--->
+
+      
+ ## Showcase
+
+      
+-----------------------------------------
+ 
+      
+ ![demo gif](./resources/images/demo.gif)
+
+
+      
+    
+ ## Questions?
+
+      
+-----------------------------------------
+ 
+      
+  My Github: [Akuruu](https://github.com/Akuruu)
+
+      
+ Contact Me: anjalismith0529@gmail.com 
